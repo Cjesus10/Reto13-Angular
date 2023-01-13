@@ -20,6 +20,29 @@ export class AppComponent {
   get monto(){ return this.registroForm.get('monto');}
   get op(){ return this.registroForm.get('op');}
 
-  val='PEN '
   tipo="";
+  
+  unJson = [
+    {
+      "Apellido": "Arcila", 
+      "Casado": false, 
+      "Dirección": "Calle 35 # 43 28", 
+      "Nombre": "Diego",
+      "Telefono": 3859720
+      },
+
+      { "Apellido": "Bueno",
+      "Casado": false,
+      "Dirección": "CR 16A # 53 28",
+      "Nombre": "Kevin",
+      "Telefono": 31485579954 
+      },      
+      { 
+      "Apellido": "Palomino",
+      "Casado": false,
+      "Dirección": "CR 25 # 52 33",
+      "Nombre": "Natalia",
+      "Telefono": 32255945555 
+      } 
+  ]
 }
